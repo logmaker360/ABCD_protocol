@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/achtergrond"
+    android:padding="40dp">
+
+    <Button
+        android:id="@+id/btademFrequentie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Tellen" />
+
+    <TextView
+        android:textColor="#808"
+        android:id="@+id/tvademFrequentie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Druk op Start Tellen" 
+        android:paddingBottom="25dp"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/pbademFrequentie"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivademFrequentie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plusadem" />
+
+    <TextView
+        android:textColor="#808"
+        android:id="@+id/tvaantalademFrequentie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/achtergrond">
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="127dp"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAlarmeren"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.92"
+        android:text="@string/alarmeren"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#808" 
+        android:padding="40dp" 
+        android:typeface="monospace" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ivBel_112"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/groenetelefoonhoorn" />
+
+    <ImageView
+        android:id="@+id/ivWaarBenIk"
+        android:layout_width="wrap_content"
+        android:layout_height="201dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/waarbenikrond" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivBel_112"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="15dp"
+        android:text="bel 112"
+        android:textColor="#808" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/ivWaarBenIk"
+        android:layout_marginLeft="15dp"
+        android:text="waar ben ik"
+        android:textColor="#808" />
+
+</RelativeLayout>
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btpijlnaarrechts4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:src="@drawable/pijl_rechts" />
+    
+   </LinearLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:padding="40dp">
+        
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvSchouderklop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <TextView
+             android:textColor="#808"
+             android:id="@+id/tvHeimrich"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <ImageView
+             android:id="@+id/imHeimrich"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/heimlich_greep_verstikking" />
+
+         <TextView
+             android:textColor="#808"
+             android:id="@+id/tvbabyklop"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <ImageView
+             android:id="@+id/imbabyklop"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/baby_verslikking" />
+         
+         <TextView
+             android:textColor="#808"
+             android:id="@+id/tvNaarBreating"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <ImageView
+             android:id="@+id/ibNaarBreating"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/pijl_rechts" 
+             android:layout_gravity="center"/>
+
+    </LinearLayout>
+    
+
+</ScrollView>

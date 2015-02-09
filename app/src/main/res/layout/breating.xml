@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/achtergrond" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvAdem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/kijken_luisten_voelen" />
+        
+          <TextView
+            android:textColor="#808"
+            android:id="@+id/tvTellen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <Button
+              android:id="@+id/btStartTijd"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="start tellen 30 seconden." />
+
+          <TextView
+              android:id="@+id/tvUitkomst"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="uitkomst"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#808" />
+
+          <ImageView
+              android:id="@+id/ibnaarcirculation"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:src="@drawable/pijl_rechts" />
+
+          <Button
+              android:id="@+id/btReanimatie" 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="start Reanimatie"> </Button>
+
+          <Button
+              android:id="@+id/btBreatingNaarHyperventilatie"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="naar Hyperventilatie" />
+    
+    </LinearLayout>
+    
+    
+    
+
+</ScrollView>

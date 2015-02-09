@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ABCD_protocolActivity!</string>
+    <string name="app_name">ABCD_protocol</string>
+    <string name="anderMans">Maak omstanders allert op gevaar, voorkom dat er meer slachtoffers vallen.</string>
+    <string name="markeren">Markeer het gevaar. Zet bijvoorbeeld een drukke weg af. Vraag omstanders u te helpen.</string>
+    <string name="alarmeren">Bel of laat een ander het alarmnummer 112 bellen. Geef door wat er is gebeurt, de locatie waar u bent, en  hoeveel slachtoffers u ziet. Stuur een omstander naar de weg om de hulpdiensten op te vangen. </string>
+    <string name="noodTransport">Liggen er slachtoffer in de gevarenzone. Schat de situatie dan goed in. Verplaats de slachtoffers alleen als  uzelf daarbij niet  in gevaar komt  Is het risico te groot, wacht dan op de hulpdiensten. Voorkom dat er meer slachtoffers vallen. </string>
+    <string name="DenkEigenVeiligheid">Denk om uw eigen veiligheid. Neem het incident goed in u op. Is het veilig om hulp te verlenen?</string>
+    <string name="belAlarmnummer">Bel 112</string>
+    <string name="sluitAf">Afsluiten</string>
+    <string name="naarMenu">Overzicht </string>
+    <string name="locatie">Waar ben ik?</string>
+
+</resources>

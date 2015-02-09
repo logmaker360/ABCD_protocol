@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/achtergrond">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp" >
+
+        <TextView
+            android:id="@+id/tvTussenResultaatReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hier komt uitslag en voorbereiding op reanimatie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <ImageView
+            android:id="@+id/ivTussenResulataatNaarReanimatieToeBel112"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.27"
+            android:padding="25dp"
+            android:src="@drawable/groenetelefoonhoorn" />
+
+        <Button
+            android:id="@+id/btNaarReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Naar Reanimatie" />
+    </LinearLayout>
+
+
+
+</ScrollView> 

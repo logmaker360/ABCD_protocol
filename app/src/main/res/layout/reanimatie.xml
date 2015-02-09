@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/achtergrond" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/tvVerwijderJas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textColor="#808"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/handenplusplaats" />
+
+        <TextView
+            android:id="@+id/tvHoudingReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/hartmassagehandplaatsen" />
+
+        <TextView
+            android:id="@+id/tvRitmeAantal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dubbel_hartmassage" />
+
+        <TextView
+            android:id="@+id/tvBeademen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <Button
+            android:id="@+id/btRitmeReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start ritme " />
+
+        <Button
+            android:id="@+id/btStopReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop ritme" />
+
+        <Button
+            android:id="@+id/btTerugNaarBreating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terug" />
+
+    </LinearLayout>
+    
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/achtergrond" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp" >
+
+        <TextView
+            android:id="@+id/tvTekstAdemhaling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <Button
+            android:id="@+id/btHyperventilatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyperventilatie" />
+
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvnaarKlaplong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btStabieleZijliggingBewustAdem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stabiele zijligging" />
+
+        <ImageView
+            android:id="@+id/ibPijlNaarCirulatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pijl_rechts" />
+    </LinearLayout>
+
+</ScrollView>

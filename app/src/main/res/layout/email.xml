@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvContactText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type bericht" />
+
+        <EditText
+            android:id="@+id/etContactOnderwerp"
+            android:hint="Onderwerp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/etContactGeefBericht"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:ems="10"
+            android:hint="begin hier met typen"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etContactEmail"
+            android:hint="e-mail@voorbeeld.nl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btContactStuurEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stuur E-mail" />
+
+    </LinearLayout>
+    
+
+</ScrollView>

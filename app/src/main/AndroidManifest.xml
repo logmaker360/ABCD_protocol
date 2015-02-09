@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.first.aid.abcd"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:icon="@drawable/rood"
+        android:label="ABCD Protocol" >
+        <activity
+            android:name=".Eerste"
+            android:label="Eerste Hulp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                    <action android:name="android.intent.action.SEND" />
+                    <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".tweede"
+            android:label="Andermans Veiligheid" >
+        </activity>
+        <activity
+            android:name=".derde"
+            android:label="Markeren" >
+        </activity>
+        <activity
+            android:name=".vierde"
+            android:label="Alarmeren" >
+        </activity>
+        <activity
+            android:name=".vijfde"
+            android:label="NoodTransport" >
+        </activity>
+        <activity
+            android:name=".Nek"
+            android:label="Nek" >
+        </activity>
+        <activity
+            android:name=".eersteHulp"
+            android:label="Airway" >
+        </activity>
+        <activity
+            android:name=".Verslikking"
+            android:label="Verslikking / Airway" >
+        </activity>
+        <activity
+            android:name=".Breating"
+            android:label="Breating" >
+        </activity>
+        <activity
+            android:name=".Reanimatie"
+            android:label="Reanimatie" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TussenResultaatNaarReanimatieToe"
+            android:label="@string/app_name"
+             >
+        </activity>
+        <activity
+            android:name=".Locatie"
+            android:label="Waar ben ik"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BijBewustzijn"
+            android:label="Bewustzijn onderzoek" >
+        </activity>
+        <activity
+            android:name=".BewustAdem"
+            android:label="Breathing bewustzijn" >
+        </activity>
+        <activity
+            android:name=".Circulation"
+            android:label="Circulation" >
+        </activity>
+        <activity
+            android:name=".Disability"
+            android:label="Disability" >
+        </activity>
+        <activity
+            android:name=".Exposure"
+            android:label="Exposure" >
+        </activity>
+        <activity
+            android:name=".Stabiele_zijligging"
+            android:label="Stabiele zijligging" 
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Ader_of_Slagaderlijke_bloeding"
+            android:label="Bloeding" >
+        </activity>
+         <activity
+            android:name=".Drukpunten"
+            android:label="Drukpunten"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Hyperventilatie"
+            android:label="Hyperventilatie" >
+        </activity>
+         <activity
+            android:name=".Menu"
+            android:label="Overzicht" >
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="Stuur e-mail" >
+        </activity>
+        <activity
+            android:name=".Naar_begin"
+            android:label="Sluit af" >
+        </activity>
+        
+        <activity
+            android:name=".Waarschuwing_voor_WaarBenIk"
+            android:label="Waarschuwing GPS"
+            android:screenOrientation="portrait" > 
+        </activity>
+        <activity
+            android:name=".Herhaal_ABCD"
+            android:label="Opnieuw ABCD" >
+        </activity>
+        <activity
+            android:name=".Brand"
+            android:label="Airway Brand" >
+        </activity>
+        <activity
+            android:name=".Brandwonden"
+            android:label="Brandwonden" >
+        </activity>
+        <activity
+            android:name=".AdemRegestratie"
+            android:label="Aantal ademhalingen:"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BreatingResultaatnaarHyperventilatie"  
+            android:label="Naar Hyperventilatie"
+             >
+        </activity>
+        <activity
+            android:name=".BreatingResultaatNaarCirculation"  
+            android:label="Aantal ademhalingen:"
+             >
+        </activity>
+        <activity
+            android:name=".Disclamer"  
+            android:label="Disclamer"
+             >
+        </activity>
+    </application>
+
+</manifest>

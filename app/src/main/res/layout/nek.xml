@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/tvNekKlachten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textColor="#808"/>
+
+         <ImageView
+             
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/nek_achterkant" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/nek_tekening_voorkant" />
+         
+         <TextView
+             android:id="@+id/tvStabaliseer"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:textColor="#808"/>
+         
+         <ImageView
+             android:id="@+id/ibEersteHulp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:src="@drawable/pijl_rechts" />
+
+</LinearLayout>
+    
+
+</ScrollView>
